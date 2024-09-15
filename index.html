@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Número Aleatorio Cuántico</title>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+    <script src="script.js" defer></script> <!-- Enlace al archivo JavaScript -->
+</head>
+<body>
+    <h1>Generador de Número Aleatorio Cuántico</h1>
+    
+    <p>Número aleatorio actual: <span id="randomNumber">Cargando...</span></p>
+
+    <p>Estado de solicitud: <span id="state">Sin petición</span></p>
+    <button id="requestButton">Solicitar número aleatorio</button>
+    
+    <h2>Contador</h2>
+    <p>Intentos: <span id="counter">0</span></p>
+    <button id="startCounterButton">Iniciar Contador</button>
+    <button id="stopCounterButton">Detener Contador</button>
+    <p id="updateMessage"></p> <!-- Mensaje para mostrar actualizaciones -->
+</body>
+</html>
